@@ -8,8 +8,10 @@ module.exports = {
         xxs: "0.625rem",
       },
       colors: {
-        default: "var(--theme-text)",
-        base: "var(--theme-background)",
+        "theme-color": "var(--theme-text)",
+      },
+      backgroundColor: {
+        "theme-color": "var(--theme-background)",
       },
     },
   },
